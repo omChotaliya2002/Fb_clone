@@ -1,0 +1,14 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(241, 241, 241);
+    /* font-family: 'klavika'; */
+}
+
+@font-face{
+    font-family: 'klavika';
+    src: url('./KLAVIKAREGULAR-TF.OTF') format('opentype');
+}
