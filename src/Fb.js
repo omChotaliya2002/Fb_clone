@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 function Fb() {
   return (
     <>
-      <div className="container mt-20 mx-auto flex justify-center items-center">
-        <div className="left w-[40%] mb-40">
+      <div className="container mt-20 mx-auto flex justify-center items-center select-none">
+        <div className="left w-[40%] mb-40 select-none">
           <img
             className="w-80 -mb-10 sm:w-[90%] sm:-mb-[20px] md:w-[75%] md:mb-[-20px] lg:w-[70%] lg:-mb-[40px] xl:w-[60%] xl:-mb-[40px] 2xl:w-[60%] 2xl:-mb-[50px]"
             src={logo}
@@ -17,7 +17,7 @@ function Fb() {
           </p>
         </div>
 
-        <div className="right flex flex-col bg-white p-8 mx-14 my-10 rounded-lg w-1/3 sm:w-96 sm:p-6  relative">
+        <div className="right flex flex-col bg-white p-8 mx-14 my-10 rounded-lg w-1/3 sm:w-96 sm:p-6 relative select-none">
           <input
             className="px-4 h-12 my-1 border border-1 border-gray-300 outline-blue-400 rounded-lg text-lg"
             type="text"
